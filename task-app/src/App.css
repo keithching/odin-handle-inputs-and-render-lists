@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.input-Form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.input-Form button {
+    background-color: skyblue;
+    border-color: transparent;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.2);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.input-Form button:hover {
+    background-color: yellow;
+}
+
+.entries {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.entries li {
+    display: flex;
+    gap: 10px;
+}
+
+.entries .deleteBtn,
+.entries .editBtn {
+    width: 80px;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.2);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.entries .deleteBtn {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+    
+.entries .editBtn {
+    background-color: rgba(0, 0, 255, 0.3);
+}
+
+.text {
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: transparent;
+    overflow-wrap: break-word;
+}
+
+input.entry {
+    width: 150px;
+    overflow-wrap: break-word;
+    margin: 0;
+    padding: 0;   
+}
